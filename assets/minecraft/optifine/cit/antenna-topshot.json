@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"parent": "minecraft:block/carved_pumpkin",
 	"textures": {
-		"0": "./antenna-topshot",
-		"particle": "./antenna-topshot"
+		"0": "antenna-topshot",
+		"particle": "antenna-topshot"
 	},
 	"elements": [
 		{
@@ -19,8 +19,9 @@
 			}
 		},
 		{
-			"from": [7, 9, 7],
-			"to": [9, 11, 9],
+			"from": [7, 8, 7],
+			"to": [9, 10, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, -1, 0]},
 			"faces": {
 				"north": {"uv": [10, 2, 12, 4], "texture": "#0"},
 				"east": {"uv": [12, 0, 14, 2], "texture": "#0"},
@@ -32,8 +33,22 @@
 		}
 	],
 	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 4.25, -1.25]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 4.25, -1.25]
+		},
+		"firstperson_righthand": {
+			"translation": [0.5, 5.75, 0]
+		},
+		"firstperson_lefthand": {
+			"translation": [0.5, 5.75, 0]
+		},
 		"head": {
-			"translation": [0, 12.5, 0]
+			"rotation": [14.4, -0.22, 0.32],
+			"translation": [-6, 12.5, -4.5],
+			"scale": [0.9, 0.9, 0.9]
 		}
 	}
 }
