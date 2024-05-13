@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"parent": "minecraft:block/carved_pumpkin",
 	"textures": {
-		"0": "antenna-topshot",
-		"particle": "antenna-topshot"
+		"0": "./antenna-topshot",
+		"particle": "./antenna-topshot"
 	},
 	"elements": [
 		{
