@@ -1,0 +1,14 @@
+{
+    "rant": {
+      "sounds": [
+        "lego-server:lemons"]
+      },
+    "still_alive": {
+      "sounds": [
+        "lego-server:still_alive"]
+      },
+    "want_you_gone": {
+      "sounds": [
+        "lego-server:want_you_gone"]
+      }
+  }
