@@ -10,5 +10,13 @@
     "want_you_gone": {
       "sounds": [
         "lego-server:want_you_gone"]
+      },
+    "creator": {
+      "sounds": [
+        "lego-server:creator"]
+      },
+    "mobvote": {
+      "sounds": [
+        "lego-server:we_did_not_rig_the_mob_vote"]
       }
   }
